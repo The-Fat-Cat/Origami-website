@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+    <link  rel = "stylesheet" type="text/css" href = "style.css" media="screen">
+
+    <title>Origami</title>
+</head>
+
+
+<body>
+    <div class="content">
+    <!-- This is the section for the top menu bar. 
+    We created a separate container for the innermenu because they have a different display property of flex to create equal distance between them. -->
+        <section class="menubar">
+                <div class="Logo"> </div>
+                <div class = "title"> Origami </div>
+            
+        
+             <container class = "Innermenu">  <!-- The reason the CSS was broken was because this container didn't have a closing tag. -->
+                 <p> Books </p>  
+                 <p> Tutorials </p>
+                 <p>  Store </p>
+                 <p>  Login </p>  
+                 <!-- This is a sign up button-->
+            <button class = "SignUp" type = "button"> Sign Up</button> 
+             </container>    
+          
+
+        </section>
+    
+
+        <section class="welcome">
+        <!-- This is the  Main Text on top of the main paragraph-->
+            <div class="maintext">  The Art <br> of Folding  </div>
+    
+            <!-- This is the main paragraph -->
+            <div class = "Paragraph">  Learn how to make easy origami with these simple instructions and diagrams. Origami does not have to be difficult and frustrating.   </div>
+
+            <!-- This is the Explore Button-->    
+            <button class = "Explore" type = "button"> Explore</button>
+
+            <!-- This is the play button wtih a triangle in the middle-->
+            <button class = "Play" type = "button" > <img src="triangle.png" alt="Triangle play button"></button>
+    
+        </section>
+    
+        <section class="graphics">
+            <!-- These are the big images of the animals. 
+            We want to animate those and will come back to that.-->
+            <div class="Rhino">   </div>
+            <div class="Dragon">   </div>
+            <div class="Paperbird">  </div>
+    
+            <!-- These are the tiny rectangles surrounding the animals-->
+            <div class = "rectangle yellow">  </div> 
+            <div class = "rectangle yellow2">   </div>
+            <div class = "rectangle red ">    </div>
+            <div class = "rectangle red2">    </div>
+            <div class = "rectangle blue">    </div>
+            <div>
+         </section>   
+
+  </div>
+</body>
+</html>

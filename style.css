@@ -1,0 +1,209 @@
+.content {
+    height:auto;
+    width:auto;
+    font-family: "Federo";
+    font-style: normal;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(5, auto);
+   
+}
+/*This is the top section with menubar*/
+.menubar{
+    padding-top: 15px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px, 153px;
+    isolation: isolate;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.Innermenu{
+    margin-right: 95px;
+    margin-left: auto;
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    gap: 150px;
+}
+
+p:hover {
+    color: #F45A51;
+    transition-delay: 1ms;
+}
+.title {
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+}     
+
+.Logo{
+    background-image: url(Logo.png);
+    width: 57px;
+    height: 44px;
+    margin: 10px;
+    margin-left:60px;
+}
+.SignUp{
+    margin-left: -25px;
+    background: #D3352C;
+    border-radius: 89px;
+    width: 136px;
+    height: 35px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition-duration: 0.4ms;
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.SignUp:hover{
+    background-color: red;
+}
+/*                                               */
+/*This is the 2nd section welcome*/
+.welcome{
+    grid-column: 1/5;
+    grid-row: 2/5;
+    padding-right:50%;
+    padding-left:60px;
+}
+.maintext{
+    margin-top: 25%;
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 132px;
+    line-height: 85.32%;
+    margin-left:40px;
+}
+.Paragraph{
+    font-family: 'Expletus Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #00000091;
+    line-height: 129.32%;
+    margin-left:50px;
+    margin-top:50px; 
+    padding-right:2
+    5%;
+}
+.Explore{
+    width: 176px;
+    height: 53px;
+    margin-left:50px;
+    margin-top: 30px;
+    background-color:#D3352C ;
+    border: 0px;
+    border-radius: 89px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: 'Federo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+}
+
+.Explore:hover{
+    background-color: red;
+}
+.Play{
+    background-color: #E7E7E7;
+    margin-left:150px;
+    width: 65px;
+    height: 53px;
+    border-radius: 100%;
+    border-color:#E7E7E7;
+}
+
+/*                                               */
+/*This is the 3rd section graphics*/
+.graphics{
+    grid-column:3/-1;
+    grid-row: 2/6;
+}
+
+.Paperbird{
+    background-image: url(PaperBird.png);
+    width: 487.08px;
+    height: 408px;
+    position: relative;
+    left: 400px;
+    top:-240px;
+}
+
+.Paperbird:hover{
+    background-image: url(secondbird.png);
+    top: -350px;
+}
+.Rhino{
+    background-image:url(rhino.png) ;
+    width: 431px;
+    height: 221px;
+    position: relative;
+    left: 90px;
+    top: 255px;
+ }
+.Dragon{
+    background-image: url(dragon.png);
+    width: 500px;
+    height: 287px;
+    position: relative;
+    left: 300px;
+    top: 285px;
+    margin-bottom: -200px;
+}
+.rectangle{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transform: rotate(20deg);
+}
+.yellow{
+    background: #FB9F5F;
+    left: 280px;
+    bottom: 550px;
+}
+.yellow2{
+    background: #FB9F5F;
+    left: 600px;
+    bottom:350px;
+}
+.red{
+    background: #EC6760;
+    left: 900px;
+    bottom: 620px;
+    
+}
+.red2{
+    background: #EC6760;
+    left: 900px;
+    bottom: 170px;
+}
+
+.blue{
+    background-color: #B6DAE0;
+    left:110px;
+    bottom:150px;
+}
+/*                                               */
